@@ -12,7 +12,6 @@ module.exports = {
         test: /\.ts$/,
         loader: "babel-loader",
         options: {
-          cacheDirectory: true,
           presets: ["@babel/env", "@babel/typescript"],
           plugins: ["@babel/transform-classes"],
         },
